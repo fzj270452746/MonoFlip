@@ -2,7 +2,7 @@ workflows:
   ios-native-quick-start:
     name: Mono Flip
     max_build_duration: 120
-    instance_type: mac_mini_m2
+    instance_type: mac_mini_m4
     integrations:
       app_store_connect: mono
     environment:
